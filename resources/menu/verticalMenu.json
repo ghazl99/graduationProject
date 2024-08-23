@@ -1,0 +1,119 @@
+{
+  "menu": [
+
+    {
+      "menuHeader": ""
+    },
+    {
+      "name": "Users",
+
+      "icon": "menu-icon tf-icons bx bx-user",
+      "slug": "app-users",
+      "submenu": [
+        {
+          "url": "user-management",
+          "name": "Employees Management",
+          "slug": "app-users-user-management"
+        },
+        {
+          "name": "Customers Management",
+          "url": "app/ecommerce/customer/all",
+          "slug": "app-users-customer-all"
+        }
+      ]
+    },
+    {
+      "menuHeader": ""
+    },
+    {
+      "name": "Roles & Permissions",
+      "icon": "menu-icon tf-icons bx bx-check-shield",
+      "slug": "app-access",
+      "submenu": [
+        {
+          "url": "app/access-permission",
+          "name": "Permission Management",
+          "slug": "app-access-permission"
+        },
+        {
+          "url": "app/access-roles",
+          "name": "Roles Management",
+          "slug": "app-access-roles"
+        }
+      ]
+    }
+    ,
+    {
+      "menuHeader": ""
+    },
+    {
+      "name": "Products and Categories",
+      "slug": "app-ecommerce-product",
+      "icon": "menu-icon tf-icons bx bx-cart-alt",
+
+      "submenu": [
+        {
+          "url": "app/ecommerce/product/category",
+          "name": "Category Management",
+          "slug": "app-ecommerce-product-category"
+        },
+        {
+          "url": "app/ecommerce/product/list",
+          "name": "Product Management",
+          "slug": "app-ecommerce-product-list"
+        }
+      ]
+
+    }
+    ,
+{
+      "menuHeader": ""
+    },
+    {
+      "name": "Logistics",
+      "icon": "menu-icon tf-icons bx bx-car",
+      "slug": "app-logistics",
+      "submenu": [
+        {
+          "url": "app/logistics/dashboard",
+          "name": "Dashboard",
+          "slug": "app-logistics-dashboard"
+        },
+        {
+          "url": "app/logistics/fleet",
+          "name": "Fleet",
+          "slug": "app-logistics-fleet"
+        }
+      ]
+    }
+    ,
+    {
+      "menuHeader": ""
+    },
+    {
+      "name": "Create shipping orders",
+      "icon": "menu-icon tf-icons bx bx-carousel",
+      "slug": "form-wizard-icons",
+      "url": "form/wizard-icons"
+    },
+    {
+      "menuHeader": ""
+    },
+    {
+      "name": "Invoices",
+      "url": "app/invoice/list",
+      "icon": "menu-icon tf-icons bx bx-food-menu",
+      "slug": "app-invoice-list"
+    },
+
+    {
+      "menuHeader": ""
+    },
+    {
+      "url": "maps/leaflet",
+      "icon": "menu-icon tf-icons bx bx-map-alt",
+      "name": "Map",
+      "slug": "maps-leaflet"
+    }
+  ]
+}

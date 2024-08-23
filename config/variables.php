@@ -1,0 +1,27 @@
+<?php
+// Variables
+return [
+  'creatorUrl' => '',
+  'templateName' => 'SwiftShip',
+  'templateSuffix' => 'SwiftShip',
+  'templateVersion' => '2.2.0',
+  'templateFree' => false,
+  'templateDescription' => 'SwiftShip',
+  'templateKeyword' => 'SwiftShip',
+  'licenseUrl' => '',
+  'livePreview' => '',
+  'productPage' => '',
+  'support' => '',
+  'moreThemes' => '',
+  'documentation' => '',
+  'changelog' => '',
+  'repository' => '',
+  'gitRepo' => '',
+  'gitRepoAccess' => '',
+  'githubFreeUrl' => '',
+  'facebookUrl' => '',
+  'twitterUrl' => '',
+  'githubUrl' => '',
+  'dribbbleUrl' => '',
+  'instagramUrl' => '',
+];
